@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylecarrito.css"> <!-- Usa el mismo archivo CSS -->
+</head>
+<body>
+    <header class="header-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/Imagen de WhatsApp 2024-04-06 a las 17.11.36_e94812c8.jpg" width="70" height="70" alt="Zapatillas Exclusivas">
+                    <span class="navbar-title">ZAPATILLAS-EXCLUSIVAS</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="venta.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Carrito de Compras</h2>
+                <div id="cart-items-container" class="row"></div>
+                <div class="mt-3 text-right">
+                    <strong>Total:</strong> <span id="total-price">$0.00</span>
+                </div>
+                <div class="mt-3 text-right">
+                    <button id="checkout-btn" class="btn btn-primary btn-morado">Finalizar Compra</button>
+                    <button id="add-payment-btn" class="btn btn-secondary btn-add-payment ml-2" onclick="location.href='metododepago.html'">Añadir Método de Pago</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-categories">
+                        <h3>Categorías</h3>
+                        <ul>
+                            <li><a href="#">Zapatillas</a></li>
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-help">
+                        <h3>Ayuda</h3>
+                        <ul>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Envíos y Devoluciones</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="footer-payment">
+                        <h3>Métodos de Pago</h3>
+                        <img src="images/webpay-plus-integracion.png" alt="Métodos de Pago">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3">
+                &copy; 2024 Zapatillas Exclusivas. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="css/carrito.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,173 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+.header-container {
+    background: linear-gradient(to right, #6e0d6e, #000);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container .navbar {
+    background: transparent;
+}
+
+.header-container .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #6e670d;
+}
+
+.header-container .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    background-color: #6e0d6e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-container .navbar-nav .nav-item .nav-link:hover {
+    background-color: #ffd700;
+    color: #6e0d6e;
+    border-color: #6e0d6e;
+}
+
+/* Estilos de las secciones */
+.section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #6e0d6e;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    background-color: #ffd700;
+    color: #6e0d6e;
+    border: 2px solid #6e0d6e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #6e0d6e;
+    color: #ffd700;
+    border-color: #ffd700;
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos adicionales para botones pequeños en el carrito */
+/* Estilos adicionales para el botón de eliminar en el carrito */
+.btn-delete {
+    padding: 3px 7px;
+    font-size: 0.75em;
+    border-radius: 3px;
+}
+
+/* Estilos del carrito */
+#cart-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#cart-items .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#total-price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilos del footer */
+footer {
+    padding: 50px 0;
+    color: #fff;
+    background-color: #6e0d6e;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #dc3545;
+}
+
+.footer-payment img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.text-center p.mb-0 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* Estilo para el botón Comprar Ya en el footer */
+.footer-payment {
+    text-align: center;
+}
+
+/* Estilos adicionales para navbar */
+.bg-yellow {
+    background-color: #ffd700;
+}

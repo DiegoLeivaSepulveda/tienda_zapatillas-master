@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Producto {{ id }}</title>
+</head>
+<body>
+    <h1>Detalles del Producto {{ id }}</h1>
+    <a href="{% url 'agregar_al_carrito' id=id %}">Agregar al Carrito</a>
+</body>
+</html>

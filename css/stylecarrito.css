@@ -1,0 +1,168 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+.header-container {
+    background: linear-gradient(to right, #6e0d6e, #000);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container .navbar {
+    background: transparent;
+}
+
+.header-container .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #ffd700;
+}
+
+.header-container .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    background-color: #6e0d6e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-container .navbar-nav .nav-item .nav-link:hover {
+    background-color: #ffd700;
+    color: #6e0d6e;
+    border-color: #6e0d6e;
+}
+
+/* Estilos de las secciones */
+.section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #6e0d6e;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    background-color: #ffd700;
+    color: #6e0d6e;
+    border: 2px solid #6e0d6e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #6e0d6e;
+    color: #ffd700;
+    border-color: #ffd700;
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos adicionales para el carrito */
+#cart-items-container .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.cart-item h5, .cart-item p {
+    margin: 0;
+}
+
+#total-price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #6e0d6e;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #dc3545;
+}
+
+.footer-payment img {
+    max-width: 100%;
+}
+
+.text-center p.mb-0 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* Estilos adicionales para navbar */
+.bg-yellow {
+    background-color: #ffd700;
+}
